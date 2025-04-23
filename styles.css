@@ -13,10 +13,11 @@
 }
 
 .scp_table {
+    position: absolute;
     left: 0px;
-    width: auto;
+    right: 0px;
     top: 0px;
-    height: auto;
+    bottom: 0px;
 }
 
 .scp_table_row_padding {
