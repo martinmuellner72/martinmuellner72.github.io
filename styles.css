@@ -72,17 +72,24 @@
     width: 60px;
 }
 
+.scp_flag_size {
+    width: 25px;
+    height: 25px;
+}
+
 .scp_xaxis_label {
+    padding-top: 15px;
     font-size: 20px;
     font-weight: bold;
     text-align: center;
 }
 
 .scp_yaxis_label {
-    margin-left: 5px;
+    padding-left: 5px;
     writing-mode: sideways-lr;
     font-size: 20px;
     font-weight: bold;
+    text-align: center;
 }
 
 .scp_ruler_marks {
@@ -190,6 +197,55 @@
     text-align: right;
 }
 
-.scp_top {
-    vertical-align: top;
+.scp_i1 {
+    position: fixed;
+    top: 400px;
+    left: 400px;
 }
+
+.scp_i2 {
+    position: fixed;
+    top: 200px;
+    left: 600px;
+}
+
+.scp_ih1 {
+    position: fixed;
+    top: 390px;
+    left: 410px;
+}
+
+.scp_ih2 {
+    position: fixed;
+    top: 190px;
+    left: 610px;
+}
+
+.scp_ih {
+    font-size: 12px;
+}
+
+#container {
+    position: relative;
+  }
+  
+  #container > * {
+    position: absolute;
+  }
+  
+  .scp_left {
+    left: 0px;
+  }
+  
+  .scp_right {
+    right: 0px;
+  }
+  
+  .scp_top {
+    top: 0px;
+  }
+  
+  .scp_bottom {
+    bottom: 0px;
+  }
+  
